@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title text-align="center">FOOTBALL FANS </title>
+ {% load staticfiles %}
+<link href="{% static 'css/bootstrap.min.css' %}"
+      rel="stylesheet" media="screen">
+<link href="{% static 'css/bootstrap.css' %}"
+      rel="stylesheet" media="screen">
+<link href="{% static 'css/bootstrap.css.map' %}"
+      rel="stylesheet" media="screen">
+<link href="{% static 'css/bootstrap-theme.css' %}"
+      rel="stylesheet" media="screen">
+<link href="{% static 'css/bootstrap-theme.css.map' %}"
+      rel="stylesheet" media="screen">
+<link href="{% static 'css/bootstrap-theme.min.css' %}"
+      rel="stylesheet" media="screen">
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/npm.js' %}"></script>
+ <div class="container">
+	<div class="jumbotron">
+<div class="container">
+<div id="header">
+    <div id="logo">
+      <a href="{% url 'home' %}">
+        <img src="/static/img/thing.jpg" width="1000" height="150" alt="AskHere">
+      </a>
+    </div>
+<div class="container">
+<div class="row-fluid">
+  <div class="span4 text-left"><a href="#" class="btn"></a></div>
+  <div class="span4 text-center"><a href="#" class="btn"></a></div>
+  <div class="span4 text-right"><a href="#" class="btn"></a></div>
+</div>
+</div>
+<div class="row"><div class="col-sm-4">
+<a href="/login/" class="btn btn-info" role="button">LOGIN</a></div>
+<div class="col-sm-4">
+<a href="/new/" class="btn btn-info" role="button">LOGOUT</a></div>
+<div class="col-sm-4">
+<a href="/register/" class="btn btn-info" role="button">REGISTER</a></div>
+</div>
+<div class="row">
+    <a href="pulpitrock.jpg" class="thumbnail">
+      <img src="{% static "img/d.jpg"  %}" alt="Pulpit Rock" style="width:1000px;height:100px">
+                </a>
+</div>
+<div class="row"><div class="col-sm-4">
+<a href="/login/" class="btn btn-info" role="button">LOGIN</a></div>
+<div class="col-sm-4">
+<a href="/new/" class="btn btn-info" role="button">LOGOUT</a></div>
+<div class="col-sm-4">
+<a href="/register/" class="btn btn-info" role="button">REGISTER</a></div>
+</div>
+
+ <div class="row">
+  <div class="col-md-4">
+    <a href="pulpitrock.jpg" class="thumbnail">
+      <img src="{% static "img/a.jpg"  %}" alt="Pulpit Rock" style="width:300px;height:150px">
+            
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+     
+      <img src="{% static "img/b.jpg"  %}" alt="Moustiers Sainte Marie" style="width:300px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="cinqueterre.jpg" class="thumbnail">
+      
+      <img src="{% static "img/c.jpg"  %}" alt="Cinque Terre" style="width:300px;height:150px">
+    </a>
+  </div>
+</div>
+</div>
+<div class="row">
+<div class="container">
+    <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="success">
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger">
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info">
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<div id="footer">
+<div class="row">
+ <footer>
+  <p>Posted by: SKP.Guptha</p>
+  <p>Contact information: <a href="skp.guptha@gmail.com">
+ skp.guptha@gmail.com</a>.</p>
+</footer>
+
+</div></div> 
+</div> 
+</body>
+</html>

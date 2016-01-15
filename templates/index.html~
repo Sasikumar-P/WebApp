@@ -1,0 +1,5 @@
+{% extends 'home.html' %}
+
+{% load staticfiles %}
+
+<li><a href="{% url 'register' %}">About</a></li>

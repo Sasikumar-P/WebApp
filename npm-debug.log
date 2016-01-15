@@ -1,0 +1,40 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'bower' ]
+info using npm@1.0.106
+info using node@v0.5.11-pre
+verbose config file /home/us/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose into /usr/local/lib [ 'bower' ]
+verbose cache add bower
+verbose cache add [ 'bower', null ]
+silly cache add: name, spec, args [ undefined, 'bower', [ 'bower', null ] ]
+verbose parsed url { pathname: 'bower', path: 'bower', href: 'bower' }
+info addNamed [ 'bower', '' ]
+verbose addNamed [ null, '' ]
+verbose GET bower
+verbose raw, before any munging bower
+verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+verbose url resolved https://registry.npmjs.org/bower
+ERR! Error: SSL Error: CERT_UNTRUSTED
+ERR!     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:252:28)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1226:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR!     at CleartextStream.ondata (http.js:1125:24)
+ERR!     at CleartextStream._push (tls.js:363:27)
+ERR!     at SecurePair.cycle (tls.js:679:20)
+ERR!     at EncryptedStream.write (tls.js:122:13)
+ERR!     at Socket.ondata (stream.js:38:26)
+ERR!     at Socket.emit (events.js:67:17)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 3.2.0-53-generic-pae
+ERR! command "node" "/usr/local/bin/npm" "install" "-g" "bower"
+ERR! cwd /home/us/six/newenv/football
+ERR! node -v v0.5.11-pre
+ERR! npm -v 1.0.106
+verbose exit [ 1, true ]
